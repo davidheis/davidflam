@@ -6,7 +6,7 @@
   "“postinstall": "npm run build:ssr",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev:ssr": "ng run brisflamenco3:serve-ssr",
